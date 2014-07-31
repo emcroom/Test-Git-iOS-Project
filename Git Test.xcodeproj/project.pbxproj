@@ -21,6 +21,7 @@
 		FA9A4A991989ED590030F889 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9A4A7B1989ED580030F889 /* UIKit.framework */; };
 		FA9A4AA11989ED590030F889 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA9A4A9F1989ED590030F889 /* InfoPlist.strings */; };
 		FA9A4AA31989ED590030F889 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9A4AA21989ED590030F889 /* Git_TestTests.m */; };
+		FA9A4AB11989EFEF0030F889 /* CCtest.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9A4AB01989EFEF0030F889 /* CCtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FA9A4A9E1989ED590030F889 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		FA9A4AA01989ED590030F889 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA9A4AA21989ED590030F889 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		FA9A4AAF1989EFEF0030F889 /* CCtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCtest.h; sourceTree = "<group>"; };
+		FA9A4AB01989EFEF0030F889 /* CCtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCtest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				FA9A4A8D1989ED580030F889 /* CCViewController.m */,
 				FA9A4A8F1989ED580030F889 /* Images.xcassets */,
 				FA9A4A7E1989ED580030F889 /* Supporting Files */,
+				FA9A4AAF1989EFEF0030F889 /* CCtest.h */,
+				FA9A4AB01989EFEF0030F889 /* CCtest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA9A4A881989ED580030F889 /* CCAppDelegate.m in Sources */,
+				FA9A4AB11989EFEF0030F889 /* CCtest.m in Sources */,
 				FA9A4A841989ED580030F889 /* main.m in Sources */,
 				FA9A4A8E1989ED580030F889 /* CCViewController.m in Sources */,
 			);
